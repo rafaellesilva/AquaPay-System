@@ -16,7 +16,7 @@ public class ConsumoAgua {
         this.setLeituraAtual(leituraAtual);
         //Primeiro, ele chama os métodos setLeituraAnterior() e setLeituraAtual() para atualizar os valores dessas variáveis com os valores passados como parâmetros.
 
-        float consumoAgua = leituraAnterior - leituraAtual;
+        float consumoAgua = leituraAtual - leituraAnterior;
         //Em seguida, o consumo de água é calculado como a diferença entre as leituras atual e anterior.
 
         return consumoAgua;
